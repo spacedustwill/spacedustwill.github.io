@@ -4,4 +4,14 @@ title: About Me
 permalink: /about/
 ---
 
-I am currently a postdoctoral researcher in the Bergner Astrochemistry group at the University of California, Berkeley. Previously, I was a Ph.D. student in the Widicus Weaver group at the University of Wisconsin-Madison. My research interests include planet formation, radiative transfer modeling, and ice chemistry. 
+I am currently a postdoctoral researcher in the Chemistry department at the University of California, Berkeley. My research aims to answer big questions in the chemistry of space and the origin(s) of life, such as: 
+
+- How do planets form? 
+- Can the chemistry during planet formation plant the initial seeds life? 
+
+To help answer these questions, I use simulations and high-performance computing to study the chemical and physical environments in which planets form, protoplanetary disks. 
+
+
+
+Previously, I was a Ph.D. student in the at the University of Wisconsin-Madison. There, my research combined laboratory experiments of astrophysical ice analogs, as well as radio interferometry of star-forming regions, to better understand the chemical complexity of interstellar space. 
+
