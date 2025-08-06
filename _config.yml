@@ -3,6 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
+title: Test title name
 name: site name
 
 # Name of the author
