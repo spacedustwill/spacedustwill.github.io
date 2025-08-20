@@ -1140,10 +1140,14 @@ Modules - reusable parts of our design
 }
 
 // WET added this to shift the logo and menu, they were too far in the middle of the page
-.site-header .wrapper {
-  display: flex;
-  justify-content: space-between; /* pushes logo left, menu right */
-  align-items: center;
+/* Move logo further left */
+.site-title {
+  margin-left: -20px;   /* adjust number */
+}
+
+/* Move nav further right */
+.site-nav {
+  margin-right: -40px;  /* adjust number */
 }
 
 
