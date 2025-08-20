@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "minima";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -1141,16 +1142,34 @@ Modules - reusable parts of our design
 
 // WET added this to shift the logo and menu, they were too far in the middle of the page
 /* Move logo further left */
-.site-title {
-  margin-left: -20px;   /* adjust number */
+/* ======================
+   Custom header overrides
+   ====================== */
+
+/* A) Make ONLY the header container wider so logo/menu sit closer to page edges */
+.site-header .wrapper {
+  max-width: 1200px;       /* tweak to taste (e.g., 1100–1280) */
+  padding-left: 1rem;      /* keep some breathing room */
+  padding-right: 1rem;
 }
 
-/* Move nav further right */
+/* B) Stop minima from absolutely positioning the nav, then use flex spacing */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+}
+.site-title { 
+  margin-right: auto;      /* pushes nav away to the right */
+}
 .site-nav {
-  margin-right: -40px;  /* adjust number */
+  position: static;        /* overrides minima’s absolute positioning */
+  margin-left: auto;       /* pins the menu to the right edge of the wrapper */
 }
 
-
+/* Optional: tighten logo/title spacing */
+.site-title img { 
+  margin-right: .5rem;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
