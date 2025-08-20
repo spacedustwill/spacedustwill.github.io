@@ -1139,6 +1139,14 @@ Modules - reusable parts of our design
   }
 }
 
+// WET added this to shift the logo and menu, they were too far in the middle of the page
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between; /* pushes logo left, menu right */
+  align-items: center;
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
